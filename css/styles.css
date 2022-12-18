@@ -1,0 +1,139 @@
+:root {
+  --brand-color: #2196f3;
+  --text-color: #757575;
+}
+
+:body {
+  font-family: "Roboro", sans-serif;
+  color: #212121;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.unstyled-list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*header styling */
+.logo {
+  font: "Raleway";
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-highlight {
+  color: var(--brand-color);
+}
+
+.main-nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active,
+.main-nav-link:focus {
+  color: var(--brand-color);
+}
+
+.contact-nav-link {
+  color: var(--text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.contact-nav-link:hover,
+.contact-nav-link:active,
+.contact-nav-link:focus {
+  color: var(--brand-color);
+}
+
+/* Hero section styling */
+.hero-section {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.main-sec-button {
+  color: #ffffff;
+  background-color: var(--brand-color);
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.main-sec-button:hover,
+.main-sec-button:active,
+.main-sec-button:focus {
+  background-color: #188ce8;
+}
+
+/* page section styling */
+.section-subtitle {
+  font-weight: 700;
+}
+
+.section-text {
+  color: var(--text-color);
+  line-height: 1.71;
+}
+
+/* what we do styling */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+/* team section */
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.position {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* footer */
+.footer-sec {
+  background-color: #2f303a;
+}
+
+.logo {
+  color: #ffffff;
+}
+
+.logo-highlight {
+  font: "Raleway";
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer-adress {
+  color: #ffffff;
+}
+
+.footer-contact-link {
+  color: #ffffff99;
+}
