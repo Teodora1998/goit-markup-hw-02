@@ -21,7 +21,7 @@
 }
 
 /*header styling */
-.logo {
+.header-logo {
   font: "Raleway";
   color: #000000;
   font-weight: 700;
@@ -118,16 +118,16 @@
   background-color: #2f303a;
 }
 
-.logo {
+.footer-logo {
   color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-highlight {
   font: "Raleway";
   color: var(--brand-color);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .footer-adress {
@@ -136,4 +136,34 @@
 
 .footer-contact-link {
   color: #ffffff99;
+}
+
+/* Portofolio styling */
+.portofolio-button {
+  background-color: #f5f4fa;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.portofolio-button:hover,
+.portofolio-button:active,
+.portofolio-button:focus {
+  color: #ffffff;
+  background-color: var(--brand-color);
+}
+
+.portofolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portofolio-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
