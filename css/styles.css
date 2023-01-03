@@ -101,6 +101,9 @@
 }
 
 /* team section */
+.team-sec {
+  background-color: #f5f4fa;
+}
 .employee-name {
   font-weight: 500;
   font-size: 16px;
